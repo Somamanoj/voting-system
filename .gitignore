@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+*/node_modules
+
+# Production builds
+dist
+*/dist
+dist-ssr
+*/dist-ssr
+
+# Environment variables
+.env
+.env.*
+!.env.example
+*.local
+
+# System & IDE files
+.DS_Store
+*/.DS_Store
+.vscode
+.idea
+*.log
